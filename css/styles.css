@@ -1,0 +1,176 @@
+ body {
+   font-family: "Montserrat";
+ }
+/* headings */
+.new{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.head{
+  font-family: "Montserrat-bold";
+  font-size: 50px;
+  color: #FFFFFF;
+  line-height: 1.5;
+}
+
+ /* paragraph  */
+ p {
+   color: #808080
+ }
+
+ em {
+   color: #FFFFFF;
+ }
+
+ a {
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+ }
+
+ col-lg-6 {
+   transform: rotate(90eg)
+ }
+
+ .containers-fluid {
+   padding: 3% 15%;
+ }
+
+ /* headers  */
+ #a {
+   color: #fff;
+ }
+
+ .containers-fluid {
+   /* margin-top: auto auto 50px auto; */
+   /* padding-bottom: 120px; */
+   padding: auto auto 100px auto;
+ }
+
+ .nav-link {
+   font-family: Montserrat;
+   font-size: 2.5rem;
+ }
+
+ .title-image {
+   height: 605px;
+   width: 300px;
+   transform: rotate(20deg);
+   /* margin-top: 40px; */
+   position: absolute;
+ }
+
+ /* feature section */
+ #features {
+   padding: 5% 15%;
+   background-color: #fff;
+   position: relative;
+ }
+
+ .feature-box {
+   text-align: center;
+   padding: 5%;
+ }
+
+ .fa-solid {
+   padding: 5% 6%;
+ }
+
+ /* icons specification */
+ .icon {
+   color: #ef8172;
+   padding-bottom: 1rem;
+ }
+
+ .icon:hover {
+   color: #ff4c68;
+ }
+
+ #testimonials {
+   /* padding: 5% 15%; */
+   text-align: center;
+   background-color: #ef8172;
+ }
+
+ .testimonial-img {
+   width: 15%;
+   margin: 5% 2%;
+   border-radius: 100%;
+ }
+
+ /* carousel items */
+ .carousel-inner {
+   padding: 5% 15%;
+ }
+
+ /* pricing */
+ #pricing {
+   padding: 5% 15%;
+ }
+
+ .pricing-column {
+   padding: 3% 5%;
+ }
+
+ /* card body */
+ .card {
+   text-align: center;
+ }
+
+ #press {
+   background-color: #ef8172;
+   text-align: center;
+   padding-bottom: 3%;
+ }
+
+ .press-logo {
+   width: 18%;
+   padding: 10px 20px 30px;
+ }
+
+ /* media query breakpoints */
+ @media (max-width: 991px) {
+   .title-image {
+     position: static;
+     transform: rotate(0);
+     padding-top: 30px;
+   }
+ }
+
+ @media (max-width:767px) {
+   .new {
+     text-align: center;
+   }
+ }
+
+ /* footer */
+ #cta {
+   text-align: center;
+   background-color: #ff4c68;
+   padding: 5% 15%;
+   font-family: " Montserrat";
+   color: #fff;
+ }
+
+ .cta1 {
+   font-size: 55px;
+   padding-bottom: 20px;
+ }
+
+ #footer {
+   text-align: center;
+   padding: 50px 50px;
+   background-color: #fff;
+ }
+ /* social icons */
+ .social-icons {
+   font-size: 25px;
+   padding: 20px 15px;
+ }
+
+  .btn {
+    margin-right: 16px;
+  }
